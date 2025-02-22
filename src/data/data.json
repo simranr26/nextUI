@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "topic": "Understanding React Hooks",
+    "author": "John Doe",
+    "date": "Feb 22, 2025",
+    "img": "/images/react-hooks.png",
+    "summary": "An introduction to React Hooks and their use cases."
+  },
+  {
+    "id": "2",
+    "topic": "Next.js Routing Explained",
+    "author": "Jane Smith",
+    "date": "Feb 20, 2025",
+    "img": "/images/nextjs-routing.png",
+    "summary": "A deep dive into file-based routing in Next.js."
+  },
+  {
+    "id": "3",
+    "topic": "Understanding React Hooks",
+    "author": "John Doe",
+    "date": "Feb 22, 2025",
+    "img": "/images/react-hooks.png",
+    "summary": "An introduction to React Hooks and their use cases."
+  },
+  {
+    "id": "4",
+    "topic": "Next.js Routing Explained",
+    "author": "Jane Smith",
+    "date": "Feb 20, 2025",
+    "img": "/images/nextjs-routing.png",
+    "summary": "A deep dive into file-based routing in Next.js."
+  }
+]
