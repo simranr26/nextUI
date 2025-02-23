@@ -3,8 +3,8 @@ import blogData from "../../data/data.json";
 
 export default function BlogWidget(){
   return (
-
-    <div  className = "grid grid-cols-1 sm:grid-cols-2 md:grid-col-3 gap-4 px-4 mt-2 ml-2">
+<div className = "container mx-auto px-4 sm:px-6 lg:px-8">
+    <div  className = "grid grid-cols-1 mr-4 sm:grid-cols-2 md:grid-col-3 gap-6 mt-4">
    {blogData.map((blog) =>
   ( 
      <div className="max-w-sm sm:max-w-md md:max-w-lg bg-white rounded-lg shadow-lg overflow-hidden mt-4 ml-4 p-4">
@@ -12,7 +12,7 @@ export default function BlogWidget(){
    alt="Blog Image"
    className="w-full h-48 object-cover"
    />
-   <div className="p-4">
+   <div className="mr-4">
    <Link key =  {blog.id}  href={`/blog-detail-page/${blog.id}`}><h1 className= "text-black text-sm font-bold"> {blog.topic}</h1></Link>
    <p className = "text-gray-400 mt-2 mr-10"> Summary of the blog</p>
     </div>
@@ -23,6 +23,7 @@ export default function BlogWidget(){
     
     </div>
     ))}
+    </div>
     </div>
   );
 }
