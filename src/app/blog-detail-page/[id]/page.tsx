@@ -15,14 +15,13 @@ export default function BlogDetailPage(){
   }
 
   return (
-    <DetailBlogCard
-      topic={blogPost.topic}
-      author={blogPost.author}
-      date={blogPost.date}
-      img={blogPost.img}
-      summary={blogPost.summary}
-    />
+   <div 
+   >
+     <h1 className = "text-3xl font-bold mx-4">{blogPost.topic}</h1>
+     <p className = "text-gray-500 mx-4"> {blogPost.author} - {blogPost.date}</p>
+     <img src = {blogPost.img} className = "w-2/3 h-64 object-cover mt-4 mx-4 rounded-lg shadow-lg "/>
+     <p className = "mt-4 mx-4  text-gray-600">{blogPost.summary}</p>
+   </div>
   );
-  return  
  
 }
